@@ -1,0 +1,151 @@
+html {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "helvetica", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #525254;
+
+}
+
+a {
+  text-decoration: none;
+  color: #dfdfe1;
+}
+
+div {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+input {
+  border-radius: 2px 0 0 2px;
+  border: 0;
+  padding: 13px 13px;
+  width: 540px;
+  font-size: 18px;
+  height: 22px;
+  background-color: #fdfdfd;
+}
+
+input:focus {
+  outline: 0;
+}
+
+
+#lastest-post {
+
+}
+
+.homepage-announcement {
+  background-color: #000002;
+}
+
+.homepage-announcement a {
+  color: #4eae49;
+  display: block;
+  padding: 9px 18px 9px 18px;
+  text-decoration: none;
+}
+
+.muted {
+  color: #dfdfe1;
+}
+
+.homepage-header {
+  background-color: #1a1a1c;
+  height: 390px;
+  color: #d6d7d8;
+  display: block;
+}
+
+.navbar {
+  line-height: 50px;
+}
+
+.navbar img {
+  opacity: 1;
+  width: 13px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navbar a {
+  display: inline-block;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.navbar a:hover {
+  opacity: 1.0;
+}
+
+.rightnav {
+  float: right;
+  margin-right: 20px;
+}
+
+.logo {
+  margin: 0 auto 30px auto;
+  height: 86px;
+  width: 500px;
+  background-size: 500px 86px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://cdn1.iconfinder.com/static/5a8fe200b416c5d92391aa2f64dd6322/assets/img/homepage-logo.png");
+}
+
+#search-form {
+  text-align: center;
+}
+
+.search-button {
+  height: 48px !important;
+  margin-left: -5px;
+  border-radius: 0 2px 2px 0;
+  border: 0 !important;
+  background-color: #48a043;
+  color: #fff;
+  padding: 9px 18px;
+  line-height: normal;
+  font-family: "bariol_regularregular", "helvetica neue", helvetica, sans-serif;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.pop-search {
+  text-align: center;
+  color: #d6d7d8;
+  font-size: 17px;
+  opacity: 0.8;
+}
+
+.pop-search a {
+  color: #fff;
+}
+
+.p-feedback {
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.p-feedback a:hover {
+  color: #4eae49;
+}
+}
+
