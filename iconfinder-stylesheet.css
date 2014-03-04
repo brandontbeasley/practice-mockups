@@ -122,16 +122,15 @@ input:focus {
   font-family: "bariol_regularregular", "helvetica neue", helvetica, sans-serif;
   display: inline-block;
   cursor: pointer;
-  vertical-align: middle;
+  vertical-align: top;
   font-size: 18px;
-  margin-bottom: 6px;
 }
 
 .pop-search {
   text-align: center;
   color: #d6d7d8;
   font-size: 17px;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .pop-search a {
@@ -139,13 +138,66 @@ input:focus {
 }
 
 .p-feedback {
+    margin-top: 55px;
     text-align: center;
     font-size: 15px;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .p-feedback a:hover {
   color: #4eae49;
 }
+
+.homepage-listing {
+  width: 100%;
+  box-shadow: -1px -1px red, 1px 1px red;
+  background-color: white;
 }
 
+.style-nav {
+  margin-bottom: 18px;
+  height: 40px;
+  width: 100%;
+  z-index: 99;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 2px 4px grey;
+  display: block;
+}
+
+.style-tabs a {
+  margin-left: 4px;
+  display: inline-block;
+  padding: 12px 4.5px 10px 13.5px;
+  color: #525254;
+}
+
+.style-tabs a:hover {
+  color: #469c41;
+  border-bottom: 3px solid #469c41;
+}
+
+.container {
+  width: 918px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: -1px -1px red, 1px 1px red;
+}
+
+.content-header {
+}
+.style-link {
+  float: right;
+  margin: 0;
+}
+
+.style-link a {
+  color: #4eae49;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.style-link a:hover {
+  color: #367832;
+}
