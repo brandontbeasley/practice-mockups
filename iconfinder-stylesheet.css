@@ -6,6 +6,7 @@ html {
 
 h3 {
   color:#525254;
+  margin-left: 10px;
 }
 
 h4 a {
@@ -44,7 +45,7 @@ img {
   border: 0;
 }
 
-input {
+/*input {
   border-radius: 2px 0 0 2px;
   border: 0;
   padding: 13px 13px;
@@ -52,7 +53,7 @@ input {
   font-size: 18px;
   height: 22px;
   background-color: #fdfdfd;
-}
+}*/
 
 input:focus {
   outline: 0;
@@ -111,7 +112,7 @@ input:focus {
   margin-right: 20px;
 }
 
-.logo {
+/*.logo {
   margin: 0 auto 30px auto;
   height: 86px;
   width: 500px;
@@ -119,7 +120,7 @@ input:focus {
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("https://cdn1.iconfinder.com/static/5a8fe200b416c5d92391aa2f64dd6322/assets/img/homepage-logo.png");
-}
+}*/
 
 .search-area form {
   text-align: center;
@@ -165,13 +166,11 @@ input:focus {
 
 .homepage-listing {
   width: 100%;
-  box-shadow: -1px -1px red, 1px 1px red;
   background-color: white;
 }
 
 .style-nav {
   margin-bottom: 18px;
-  height: 40px;
   width: 100%;
   z-index: 99;
   text-align: center;
@@ -192,33 +191,37 @@ input:focus {
   border-bottom: 3px solid #469c41;
 }
 
-.container {
+/*.container {
   width: 918px;
   margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 200px;
-}
+}*/
 
 .content-header {
+  margin-top: 30px;
 }
 .style-link {
   float: right;
   margin: 0;
 }
 
-.style-link a {
+/*.style-link a {
   color: #4eae49;
   font-size: 14px;
   font-weight: normal;
-}
+}*/
 
 .style-link a:hover {
   color: #367832;
 }
 
 .row {
-  margin-left: -16px
+  margin-left: -16px;
+  text-align: center;
+  max-width: 300px;
+  display: inline-block;
 }
 
 .indicator-icon {
@@ -234,7 +237,8 @@ input:focus {
   max-width: 216px;
   position: relative;
   display: inline-block;
-  margin-left: 15px;
+  margin-left: 14px;
+  padding-bottom: 20px;
 }
 
 .info {
@@ -271,5 +275,116 @@ input:focus {
   top: 22px;
   left: 0px;
   color: #78787A;
+
+}
+
+/* Small screens (default) */
+/** { box-shadow: -1px -1px red, 1px 1px red;
+}*/
+.container {
+  text-align: center;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 200px;
+}
+
+.style-link a {
+  color: #4eae49;
+  font-size: 14px;
+  font-weight: normal;
+  margin-right: 10px;
+}
+.logo {
+  margin: 0 auto 30px auto;
+  height: 50px;
+  background-size: 300px 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://cdn1.iconfinder.com/static/5a8fe200b416c5d92391aa2f64dd6322/assets/img/homepage-logo.png");
+}
+
+input {
+  border-radius: 2px 0 0 2px;
+  border: 0;
+  padding: 13px 13px;
+  width: 53%;
+  font-size: 18px;
+  height: 22px;
+  background-color: #fdfdfd;
+}
+
+/* Medium screens (640px) */
+@media (min-width: 40rem) {
+* {
+  box-shadow: none;
+}
+.style-link a {
+  margin-right: 60px;
+}
+.logo {
+  margin: 0 auto 30px auto;
+  height: 86px;
+  background-size: 400px 66px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://cdn1.iconfinder.com/static/5a8fe200b416c5d92391aa2f64dd6322/assets/img/homepage-logo.png");
+}
+h3 {
+  margin-left: 75px;
+}
+
+.row {
+  display: inline-block;
+  text-align: center;
+  max-width: 600px;
+}
+
+}
+
+
+/* Large screens (1024px) */
+@media (min-width: 64rem) {
+/** { box-shadow: -1px -1px red, 1px 1px red;
+ }*/
+
+ input {
+  border-radius: 2px 0 0 2px;
+  border: 0;
+  padding: 13px 13px;
+  max-width: 500px;
+  font-size: 18px;
+  height: 22px;
+  background-color: #fdfdfd;
+}
+
+ h3 {
+  margin-left: 150px;
+ }
+
+.row {
+  max-width: 100%;
+}
+ .iconset {
+  max-width: 216px;
+  position: relative;
+  display: inline-block;
+  margin-left: 14px;
+  padding-bottom: 20px;
+}
+
+.style-link a {
+  margin-right: 160px;
+}
+
+.logo {
+  margin: 0 auto 30px auto;
+  height: 86px;
+  width: 500px;
+  background-size: 500px 86px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://cdn1.iconfinder.com/static/5a8fe200b416c5d92391aa2f64dd6322/assets/img/homepage-logo.png");
+}
 
 }
