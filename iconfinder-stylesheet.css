@@ -4,6 +4,21 @@ html {
   display: block;
 }
 
+h3 {
+  color:#525254;
+}
+
+h4 a {
+  color: #525254;
+  margin-top: 10px 0 5px 0;
+  font-size: 12.5px;
+  line-height: 20.7px;
+  display: block;
+  font-weight: bold;
+  text-align: left;
+
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -106,11 +121,11 @@ input:focus {
   background-image: url("https://cdn1.iconfinder.com/static/5a8fe200b416c5d92391aa2f64dd6322/assets/img/homepage-logo.png");
 }
 
-#search-form {
+.search-area form {
   text-align: center;
 }
 
-.search-button {
+.search-area button[type="submit"]{
   height: 48px !important;
   margin-left: -5px;
   border-radius: 0 2px 2px 0;
@@ -126,7 +141,7 @@ input:focus {
   font-size: 18px;
 }
 
-.pop-search {
+.search-area .popular {
   text-align: center;
   color: #d6d7d8;
   font-size: 17px;
@@ -168,7 +183,7 @@ input:focus {
 .style-tabs a {
   margin-left: 4px;
   display: inline-block;
-  padding: 12px 4.5px 10px 13.5px;
+  padding: 12px 13.5px 10px 13.5px;
   color: #525254;
 }
 
@@ -182,7 +197,7 @@ input:focus {
   margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
-  box-shadow: -1px -1px red, 1px 1px red;
+  padding-bottom: 200px;
 }
 
 .content-header {
@@ -200,4 +215,61 @@ input:focus {
 
 .style-link a:hover {
   color: #367832;
+}
+
+.row {
+  margin-left: -16px
+}
+
+.indicator-icon {
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  background-image: url("https://cdn0.iconfinder.com/static/d9e0151a9c6f1252c06d45857bd5498a/assets/img/icon-format-16.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.iconset {
+  max-width: 216px;
+  position: relative;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.info {
+  margin-top: 0;
+  position: relative;
+  text-align: left;
+  padding: 0;
+
+}
+
+.icon-set-format{
+  color: #78787A;
+  position: absolute;
+  top: 22px;
+  right: 0;
+  display: block;
+  height: 16px;
+  line-height: 16px;
+  background-repeat: no-repeat;
+  padding: 0 0 0 22px;
+  vertical-align: top;
+}
+
+.free {
+  color: #78787A;
+  float: right;
+
+}
+
+.iconset-author {
+  width: 148px;
+  display: block;
+  position: absolute;
+  top: 22px;
+  left: 0px;
+  color: #78787A;
+
 }
